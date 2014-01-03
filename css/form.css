@@ -1,0 +1,44 @@
+body { margin:auto;}
+#formArea { margin:10px auto auto auto; width: 1000px;}
+#addForm { width: 1000px; margin:0px auto 0px auto; padding-top: -20px;}
+button {margin:0px 10px 0px 10px;}
+.box, #formTitleWarp {margin:10px 10px 10px 10px; padding: 20px; background-color:#0CF; -webkit-border-radius: 10px;-moz-border-radius: 10px; border-radius: 10px;}
+#formTitleWarp{    position: relative;}
+#formTitleWarp #edittitle { position: absolute;    top: 5px;    right: 5px;}
+#usercenter {position: absolute;    top: 20px;    right: 50px; z-index: 1000;}
+#addform:hover{ background-color:yellow; cursor:pointer;} 
+#addform {display: -moz-inline-box; display: -moz-inline-stack;
+-moz-box-orient: vertical;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+margin: 0;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+-ms-border-radius: 6px;
+-o-border-radius: 6px;
+border-radius: 6px;
+border: 1px solid transparent;
+font-size: 14px;
+line-height: 14px;
+font-weight: bold;
+color: white;
+background-color: #75796F;
+padding: 12px 18px 14px;
+text-align: center;
+text-decoration: none;
+-webkit-appearance: none;
+-webkit-font-smoothing: antialiased;
+-webkit-transition: "background-color" 0.07s ease-in;
+-moz-transition: "background-color" 0.07s ease-in;
+-o-transition: "background-color" 0.07s ease-in;
+transition: "background-color" 0.07s ease-in;
+cursor: pointer;
+outline: 0;}
+
+.SingleSelectSelfentire {background-color:transparent; 
+                        border-top-style:none;
+                        border-right-style:none;
+                        border-bottom-style:solid; 
+                        border-left-style:none;
+}

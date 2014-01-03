@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><form><title>test</title><page><tab><type>SingleSelect</type><title>titleField</title><hint>hintField</hint><dataname>titleField1</dataname><label>Please enter text</label><label>Please enter text</label><userentire>1</userentire><dbtablename>B</dbtablename></tab></page></form> 

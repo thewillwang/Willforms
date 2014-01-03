@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><form><title>每日工作报告表</title><page><tab><type>text</type><title>今日工作总结</title><hint></hint><dataname>今日工作总结</dataname><dbtablename>D</dbtablename></tab><tab><type>text</type><title>明日工作计划</title><hint></hint><dataname>明日工作计划</dataname><dbtablename>E</dbtablename></tab></page></form> 

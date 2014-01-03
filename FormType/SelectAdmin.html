@@ -1,0 +1,29 @@
+<div id="field_number__" class="box SingleSelect">
+	<div style=" margin-left:700px; float:left;">
+            <button onclick="xx.SingleChoice.edit(_number__);" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" 
+            role="button" aria-disabled="false" title="edit">
+            <span class="ui-button-icon-primary ui-icon ui-icon-pencil"></span>
+            <span class="ui-button-text">edit</span></button>
+            <button onclick="xx.del(_number__);" 
+            class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" 
+            role="button" aria-disabled="false" title="delete">
+            <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+            <span class="ui-button-text">delete</span></button>
+            <button onclick="xx.SingleChoice.addselect('listbody_number__');" 
+            class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-add" 
+            role="button" aria-disabled="false" title="add">
+            <span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span>
+            <span class="ui-button-text">add</span></button>
+            <input type="checkbox"  id="checkbox_number__"  onclick="checkbox('_number__');" ><!--checkbox indicator -->
+        </div>
+        <div id="dataName_number__" class="text" style="display:none;">dataNameField</div>
+		<div id = "listbody_number__">  
+            <h1 id="title_number__" class="formTitle">titleField</h1>
+            <h2 id="Hint_number__" class="formHint">hintField</h2>
+            _inputs_file_insert__
+         </div>
+         <div id="selfEntireOpinion_number__"  style="display:none;"><!--selfEntireOpinion indicator -->
+           	<input type="radio" name="SingalSelect_number__" id = "SingalSelectValue_number__" value = "Please enter text" />
+                 <input type="text" id="selfEntireOpinionInput_number__"  class="SingleSelectSelfentire" onclick="$('#SingalSelectValue_number__').prop('checked', true);" onchange="$('#SingalSelectValue_number__').val($('#selfEntireOpinionInput_number__').val());" /><br/>
+         </div>
+</div>

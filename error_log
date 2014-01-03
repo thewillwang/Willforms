@@ -1,0 +1,266 @@
+[29-Sep-2013 05:10:51] 
+[29-Sep-2013 05:11:02]  CREATE TABLE test_36( B  TEXT, C  TEXT, D  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[29-Sep-2013 05:11:03] here
+[29-Sep-2013 05:17:19] 
+[29-Sep-2013 05:17:28]  CREATE TABLE test_37( B  TEXT, C  TEXT, D  TEXT, E  TEXT, F  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[29-Sep-2013 05:17:28] here
+[29-Sep-2013 05:20:08] 
+[29-Sep-2013 05:20:22]  CREATE TABLE test_38( B  TEXT, C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[29-Sep-2013 05:20:22] here
+[29-Sep-2013 05:21:33] 
+[29-Sep-2013 05:35:18] xml/092913052133test.xml
+[29-Sep-2013 05:35:30] xml/092913052133test.xml
+[29-Sep-2013 05:39:21] xml/092913052133test.xml
+[29-Sep-2013 05:40:02] xml/092913052133test.xml
+[29-Sep-2013 05:40:04] xml/092913052133test.xml
+[29-Sep-2013 05:40:33] xml/092913052133test.xml
+[29-Sep-2013 05:41:36] xml/092913052133test.xml
+[29-Sep-2013 05:41:38] PHP Warning:  file_get_contents(&amp;quot;xml\\/092913052133test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[29-Sep-2013 05:41:38] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[29-Sep-2013 05:41:45]  CREATE TABLE test_39( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[29-Sep-2013 05:41:45] here
+[29-Sep-2013 05:42:09] 
+[01-Oct-2013 05:27:39] 
+[02-Oct-2013 04:23:34] xml/100113052739test.xml
+[02-Oct-2013 04:23:54] xml/100113052739test.xml
+[02-Oct-2013 04:24:00] xml/100113052739test.xml
+[02-Oct-2013 04:24:16] xml/100113052739test.xml
+[02-Oct-2013 04:24:21] xml/100113052739test.xml
+[02-Oct-2013 04:24:33] xml/100113052739test.xml
+[02-Oct-2013 04:53:37] xml/100113052739test.xml
+[02-Oct-2013 04:53:53] xml/100113052739test.xml
+[16-Oct-2013 06:27:00] xml/091513024924
+[16-Oct-2013 06:27:13] xml/091513024924
+[16-Oct-2013 06:27:22] 
+[16-Oct-2013 06:34:22] xml/101613062722test.xml
+[16-Oct-2013 06:36:58] xml/101613062722test.xml
+[19-Oct-2013 15:15:55] xml/101613062722test.xml
+[19-Oct-2013 15:16:01] &quot;xml\\\\/101613062722test.xml&quot;
+[25-Oct-2013 00:28:01] PHP Warning:  file_get_contents(./FormType/SingleSelectClient.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/lib/lib.php on line 74
+[25-Oct-2013 00:30:07] xml/101913031601test.xml
+[25-Oct-2013 00:41:28] xml/101913031601test.xml
+[25-Oct-2013 01:34:06] xml/101913031601test.xml
+[25-Oct-2013 01:34:07]  CREATE TABLE test_43( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 01:34:07] here
+[25-Oct-2013 01:47:56] xml/101613062722test.xml
+[25-Oct-2013 01:47:57]  CREATE TABLE test_42( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 01:47:57] here
+[25-Oct-2013 01:50:14] xml/100113052739test.xml
+[25-Oct-2013 01:50:14]  CREATE TABLE test_41( B  TEXT, C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 01:50:14] here
+[25-Oct-2013 02:04:23] xml/101613062722test.xml
+[25-Oct-2013 02:04:25]  CREATE TABLE test_42( B  TEXT, C  TEXT, D  TEXT, E  TEXT, F  TEXT, G  TEXT, H  TEXT, I  TEXT, J  TEXT, K  TEXT, L  TEXT, M  TEXT, N  TEXT, O  TEXT, P  TEXT, Q  TEXT, R  TEXT, S  TEXT, T  TEXT, U  TEXT, V  TEXT, W  TEXT, X  TEXT, Y  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 02:04:25] here
+[25-Oct-2013 02:04:30] &quot;xml\\\\/101613062722test.xml&quot;
+[25-Oct-2013 02:04:31] PHP Warning:  file_get_contents(&amp;quot;xml\\/101613062722test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:04:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:04:45] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/form.php:61
+Stack trace:
+#0 /home/willwxfg/public_html/form/form.php(61): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/willwxfg/public_html/form/form.php on line 61
+[25-Oct-2013 02:08:56]  CREATE TABLE test_42( B  TEXT, C  TEXT, D  TEXT, E  TEXT, F  TEXT, G  TEXT, H  TEXT, I  TEXT, J  TEXT, K  TEXT, L  TEXT, M  TEXT, N  TEXT, O  TEXT, P  TEXT, Q  TEXT, R  TEXT, S  TEXT, T  TEXT, U  TEXT, V  TEXT, W  TEXT, X  TEXT, Y  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 02:08:56] Table 'test_42' already exists
+[25-Oct-2013 02:08:56] here
+[25-Oct-2013 02:08:56] xml/101613062722test.xml
+[25-Oct-2013 02:14:33] xml/102513020430test.xml
+[25-Oct-2013 02:14:34]  CREATE TABLE test_44( B  TEXT, C  TEXT, D  TEXT, E  TEXT, F  TEXT, G  TEXT, H  TEXT, I  TEXT, J  TEXT, K  TEXT, L  TEXT, M  TEXT, N  TEXT, O  TEXT, P  TEXT, Q  TEXT, R  TEXT, S  TEXT, T  TEXT, U  TEXT, V  TEXT, W  TEXT, X  TEXT, Y  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 02:14:34] here
+[25-Oct-2013 02:17:45] xml/102513020430test.xml
+[25-Oct-2013 02:17:48] &quot;xml\\\\/102513020430test.xml&quot;
+[25-Oct-2013 02:18:14] PHP Warning:  file_get_contents(&amp;quot;xml\\/102513021748test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:18:14] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:18:14] &quot;xml\\\\/102513021748test.xml&quot;
+[25-Oct-2013 02:18:20] PHP Warning:  file_get_contents(&amp;quot;xml\\/102513021814test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:18:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:18:20] &quot;xml\\\\/102513021814test.xml&quot;
+[25-Oct-2013 02:28:06] 
+[25-Oct-2013 02:28:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/willwxfg/public_html/form/results.php on line 72
+[25-Oct-2013 02:29:05] xml/102513022806test.xml
+[25-Oct-2013 02:29:06]  CREATE TABLE test_48( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 02:29:06] here
+[25-Oct-2013 02:29:08] &quot;xml\\\\/102513022806test.xml&quot;
+[25-Oct-2013 02:29:08] PHP Warning:  file_get_contents(&amp;quot;xml\\/102513022806test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:29:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:29:11] &quot;xml\\\\/102513022908test.xml&quot;
+[25-Oct-2013 02:29:12] PHP Warning:  file_get_contents(&amp;quot;xml\\/102513022908test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:29:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:29:18] xml/102513022806test.xml
+[25-Oct-2013 02:29:18]  CREATE TABLE test_48( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 02:29:18] Table 'test_48' already exists
+[25-Oct-2013 02:29:18] here
+[25-Oct-2013 02:29:20] PHP Warning:  file_get_contents(&amp;quot;xml\\/102513022806test.xml&amp;quot;) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/willwxfg/public_html/form/publish.php on line 16
+[25-Oct-2013 02:29:20] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/willwxfg/public_html/form/publish.php:17
+Stack trace:
+#0 /home/willwxfg/public_html/form/publish.php(17): SimpleXMLElement->__construct('')
+#1 /home/willwxfg/public_html/form/publish.php(6): publishForm()
+#2 {main}
+  thrown in /home/willwxfg/public_html/form/publish.php on line 17
+[25-Oct-2013 02:29:21] &quot;xml\\\\/102513022806test.xml&quot;
+[25-Oct-2013 02:31:27] xml/102513022806test.xml
+[25-Oct-2013 02:31:29] &quot;xml\\\\/102513022806test.xml&quot;
+[25-Oct-2013 02:31:30] &quot;xml\\\\/102513023129test.xml&quot;
+[25-Oct-2013 02:31:32] &quot;xml\\\\/102513023130test.xml&quot;
+[25-Oct-2013 02:35:05] xml/102513022806test.xml
+[25-Oct-2013 02:35:09] &quot;xml\\\\/102513022806test.xml&quot;
+[25-Oct-2013 02:38:37] xml/102513022806test.xml
+[25-Oct-2013 02:40:40] xml/102513022806test.xml
+[25-Oct-2013 02:40:45] xml/102513022806test.xml
+[25-Oct-2013 02:47:45] xml/102513022806test.xml
+[25-Oct-2013 02:50:01] xml/102513022806test.xml
+[25-Oct-2013 02:50:05] xml/102513022806test.xml
+[25-Oct-2013 03:00:23] xml/101913031601test.xml
+[25-Oct-2013 03:00:56] xml/101913031601test.xml
+[25-Oct-2013 03:13:11]  CREATE TABLE test_43( B  TEXT, C  TEXT, D  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:13:11] here
+[25-Oct-2013 03:13:17] xml/101913031601test.xml
+[25-Oct-2013 03:13:19]  CREATE TABLE test_43( B  TEXT, C  TEXT, D  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:13:19] Table 'test_43' already exists
+[25-Oct-2013 03:13:19] here
+[25-Oct-2013 03:13:56] 
+[25-Oct-2013 03:14:11] xml/102513031356test.xml
+[25-Oct-2013 03:14:20] xml/102513031356test.xml
+[25-Oct-2013 03:14:21]  CREATE TABLE test_56( B  TEXT, C  TEXT, D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:14:21] here
+[25-Oct-2013 03:14:37] 
+[25-Oct-2013 03:14:41] xml/102513031437test.xml
+[25-Oct-2013 03:14:41]  CREATE TABLE test_57( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:14:41] here
+[25-Oct-2013 03:30:58] 
+[25-Oct-2013 03:33:32] 
+[25-Oct-2013 03:33:35] xml/102513033332test.xml
+[25-Oct-2013 03:41:11] xml/102513033332test.xml
+[25-Oct-2013 03:41:14]  CREATE TABLE test_59( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:41:15] here
+[25-Oct-2013 03:41:15] xml/102513033332test.xml
+[25-Oct-2013 03:47:31] xml/102513033332test.xml
+[25-Oct-2013 03:47:31]  CREATE TABLE test_59( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:47:31] Table 'test_59' already exists
+[25-Oct-2013 03:47:31] here
+[25-Oct-2013 03:50:23] 
+[25-Oct-2013 03:50:27] xml/102513035023test.xml
+[25-Oct-2013 03:50:28]  CREATE TABLE test_60( C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[25-Oct-2013 03:50:28] here
+[26-Oct-2013 05:29:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/willwxfg/public_html/form/lib/lib.php on line 191
+[26-Oct-2013 05:29:25] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/willwxfg/public_html/form/lib/lib.php on line 191
+[26-Oct-2013 20:30:43] 
+[26-Oct-2013 20:30:49] xml/102613083043test.xml
+[26-Oct-2013 20:30:49]  CREATE TABLE test_61( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[26-Oct-2013 20:30:49] here
+[26-Oct-2013 22:54:53] 
+[26-Oct-2013 22:54:53]  CREATE TABLE ran_(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[26-Oct-2013 22:54:53] here
+[26-Oct-2013 22:54:58] xml/102613105453ran.xml
+[26-Oct-2013 22:54:58]  CREATE TABLE ran_62( C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[26-Oct-2013 22:54:58] here
+[08-Nov-2013 06:02:07] 
+[08-Nov-2013 06:02:47] xml/110813060207test.xml
+[08-Nov-2013 06:03:00] xml/110813060207test.xml
+[08-Nov-2013 06:04:54] xml/110813060207test.xml
+[08-Nov-2013 06:05:16] xml/110813060207test.xml
+[08-Nov-2013 06:05:38] xml/110813060207test.xml
+[08-Nov-2013 06:05:57] xml/110813060207test.xml
+[08-Nov-2013 06:12:24] 
+[08-Nov-2013 06:13:48] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:14:13] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:14:14] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:14:43] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:14:44] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:14:45] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/willwxfg/public_html/form/lib/lib.php on line 152
+[08-Nov-2013 06:23:32] xml/110813061224test.xml
+[08-Nov-2013 06:23:32]  CREATE TABLE test_64(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[08-Nov-2013 06:23:32] here
+[08-Nov-2013 06:24:04] 
+[09-Nov-2013 01:36:44]  CREATE TABLE test_65( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 01:36:44] here
+[09-Nov-2013 01:36:45] xml/110813062404test.xml
+[09-Nov-2013 04:48:12] 
+[09-Nov-2013 04:48:13]  CREATE TABLE test_(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 04:48:13] here
+[09-Nov-2013 04:49:29] xml/110913044812test.xml
+[09-Nov-2013 04:49:30]  CREATE TABLE test_66(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 04:49:30] here
+[09-Nov-2013 04:51:14] 
+[09-Nov-2013 04:51:22] xml/110913045114test.xml
+[09-Nov-2013 04:51:23]  CREATE TABLE test_67( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 04:51:23] here
+[09-Nov-2013 05:14:29] 
+[09-Nov-2013 05:16:16] xml/110913051429test.xml
+[09-Nov-2013 05:16:16]  CREATE TABLE test_68( B  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 05:16:16] here
+[09-Nov-2013 06:05:48] 
+[09-Nov-2013 06:05:52] xml/110913060548test.xml
+[09-Nov-2013 06:05:53]  CREATE TABLE test_69( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:05:53] here
+[09-Nov-2013 06:06:15]  CREATE TABLE test_(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:06:15] Table 'test_' already exists
+[09-Nov-2013 06:06:15] here
+[09-Nov-2013 06:06:16] 
+[09-Nov-2013 06:06:26] xml/110913060616test.xml
+[09-Nov-2013 06:06:26]  CREATE TABLE test_70( B  TEXT, C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:06:26] here
+[09-Nov-2013 06:09:55] 
+[09-Nov-2013 06:10:05] 
+[09-Nov-2013 06:10:16] xml/110913061005test.xml
+[09-Nov-2013 06:10:18]  CREATE TABLE test_72( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:10:18] here
+[09-Nov-2013 06:10:50] xml/110913061005test.xml
+[09-Nov-2013 06:11:21]  CREATE TABLE test_71( B  TEXT, C  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:11:21] here
+[09-Nov-2013 06:11:21] xml/110913060955test.xml
+[09-Nov-2013 06:11:43] 
+[09-Nov-2013 06:11:43]  CREATE TABLE test_(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:11:43] Table 'test_' already exists
+[09-Nov-2013 06:11:43] here
+[09-Nov-2013 06:11:55] xml/110913061143test.xml
+[09-Nov-2013 06:11:55]  CREATE TABLE test_73( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[09-Nov-2013 06:11:55] here
+[16-Nov-2013 02:17:39] 
+[16-Nov-2013 02:18:23] xml/111613021739test.xml
+[16-Nov-2013 02:18:23]  CREATE TABLE test_74( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[16-Nov-2013 02:18:24] here
+[17-Nov-2013 05:08:37] 
+[17-Nov-2013 05:08:38]  CREATE TABLE test_(  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[17-Nov-2013 05:08:38] Table 'test_' already exists
+[17-Nov-2013 05:08:38] here
+[04-Dec-2013 04:37:05] 
+[04-Dec-2013 04:37:11] xml/120413043705test.xml
+[04-Dec-2013 04:37:11]  CREATE TABLE test_76( D  TEXT, E  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[04-Dec-2013 04:37:11] here
+[04-Dec-2013 05:33:35] 
+[04-Dec-2013 05:36:14] PHP Fatal error:  Cannot redeclare date() in /home/willwxfg/public_html/form/lib/lib.php on line 4
+[04-Dec-2013 05:37:07] xml/120413053335test.xml
+[04-Dec-2013 05:40:55] xml/120413053335test.xml
+[04-Dec-2013 05:40:56]  CREATE TABLE test_77( B  TEXT, C  TEXT, D  TEXT,  CreateTime Datetime DEFAULT 0,LastUpdateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+[04-Dec-2013 05:40:57] here
+[03-Jan-2014 20:12:57] 
