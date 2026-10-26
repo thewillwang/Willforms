@@ -39,13 +39,22 @@ docs/        规划、架构、约束、每个阶段的详细方案
 hardware/    每个阶段的 BOM、接线图、3D 模型（STL/STEP）、PCB
 firmware/    单片机固件（ESP32 系列，ESP-IDF / PlatformIO）
 edge/        边缘端（树莓派 / Jetson）的感知与控制服务（Python）
-cloud/       云端大脑：LLM Agent、工具定义、记忆、语音服务编排
-sim/         软件鸭：没有硬件时用来跑通整条链路的模拟器
+embody/      Python 包：proto（协议）、cloud（云端大脑）、sim（软件鸭）
 ```
 
 ## 现在在哪一步
 
 **阶段 0 规划完成，等待采购。** 下一步看 [`docs/04-phase0-duck.md`](docs/04-phase0-duck.md) 里的购物清单和里程碑 M0–M4。
+
+## 开发
+
+M0 阶段（软件鸭）的安装、启动、调试和延迟日志说明见 [`docs/05-m0-dev-guide.md`](docs/05-m0-dev-guide.md)。最常用的三条命令：
+
+```bash
+pip install -e ".[dev]"                      # 安装（先 python3 -m venv .venv && . .venv/bin/activate）
+embody-cloud                                 # 启动云端大脑（需要 ANTHROPIC_API_KEY）
+embody-duck --url ws://127.0.0.1:8765/ws     # 启动软件鸭
+```
 
 ## 协作方式
 

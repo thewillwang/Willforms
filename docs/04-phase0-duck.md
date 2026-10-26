@@ -48,7 +48,7 @@
 
 - `cloud/`：WebSocket 网关 + Claude Agent + 工具定义 + ASR/TTS 适配
 - `sim/`：电脑端软件鸭，麦克风进、喇叭出，工具调用打印到终端
-- 验收：和软件鸭聊 10 轮，终端能看到 `set_emotion` / `gesture` / `say` 的调用顺序和每段延迟
+- 验收：和软件鸭聊 10 轮，终端能看到 `set_emotion` / `gesture` 工具调用与 `say` 文本（模型流式输出直接作为语音，不是工具）的先后顺序，以及每段延迟
 
 ### M1 · 板子点亮
 
