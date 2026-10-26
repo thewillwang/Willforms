@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Firmware build
+firmware/**/build/
+firmware/**/.pio/
+firmware/**/sdkconfig.old
+firmware/**/managed_components/
+
+# Secrets
+.env
+*.pem
+*.key
+secrets.*
+
+# CAD / slicer temp
+*.gcode
+*.3mf.bak
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
