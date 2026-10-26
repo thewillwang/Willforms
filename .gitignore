@@ -27,3 +27,6 @@ secrets.*
 Thumbs.db
 .vscode/
 .idea/
+
+# Local runtime state
+*.sqlite3
